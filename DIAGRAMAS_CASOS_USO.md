@@ -201,7 +201,7 @@ stateDiagram-v2
 
     AguardandoEntrada --> ColetandoDados: Usuário abre busca
     ColetandoDados --> InsindoPontoA: 
-    InsindoPontoA --> InsindoPontoB:
+    InsindoPontoA --> InsindoPontoB: 
     InsindoPontoB --> BuscandoClima: Ambos os pontos validados
 
     BuscandoClima --> AnalisandoClima: Dados climáticos recebidos
