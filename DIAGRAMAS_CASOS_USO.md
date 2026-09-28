@@ -212,8 +212,8 @@ stateDiagram-v2
     DefinindoMeios --> ChuvaForte: Condição: Chuva forte
 
     ClimaFavorável --> BuscandoRotas: Meios definidos
-    ChuvaLeve --> BuscandoRotas:
-    ChuvaForte --> BuscandoRotas:
+    ChuvaLeve --> BuscandoRotas: 
+    ChuvaForte --> BuscandoRotas: 
 
     BuscandoRotas --> CalculandoRotas: Rotas recebidas
     CalculandoRotas --> OrdenandoRotas: Tempos e custos calculados
